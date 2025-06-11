@@ -8,7 +8,6 @@ import AdminPage from "./pages/admin/AdminPage";
 import AddPage from "./pages/admin/AddPage";
 import CardPage from "./pages/user/CardPage";
 import EditPage from "./pages/admin/EditPage";
-import { Analytics } from "@vercel/analytics/react";
 
 // axios.defaults.baseURL = "https://peternakningsalatiga-api.vercel.app/"
 axios.defaults.baseURL = "http://localhost:3001/"
@@ -26,7 +25,6 @@ function App() {
         <Route path="/:id" element={<CardPage />} />
         <Route path="/edit/:id" element={<EditPage />} />
       </Routes>
-      <Analytics />
     </div>
   );
 }
