@@ -10,7 +10,7 @@ import CardPage from "./pages/user/CardPage";
 import EditPage from "./pages/admin/EditPage";
 
 // axios.defaults.baseURL = "https://peternakningsalatiga-api.vercel.app/"
-axios.defaults.baseURL = "http://localhost:3001/"
+axios.defaults.baseURL = "https://sheep-server-784510099957.asia-southeast2.run.app/"
 axios.defaults.withCredentials = true;
 
 function App() {
